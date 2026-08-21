@@ -1,0 +1,51 @@
+Transaction,Feature,LIME_Contribution
+0,numerical__foreign_transaction <= -0.33,-0.1744944725277362
+0,numerical__location_mismatch <= -0.30,-0.15530904674027746
+0,-0.84 < numerical__device_trust_score <= 0.00,-0.03286785676962393
+0,-0.81 < numerical__transaction_hour <= 0.06,-0.0318846746528776
+0,-0.01 < numerical__velocity_last_24h <= 0.69,-0.02157732988163943
+0,-0.72 < numerical__amount <= -0.31,-0.014077972740907607
+0,categorical__merchant_category_Food <= 0.00,-0.00710974087541265
+0,categorical__merchant_category_Grocery <= 0.00,-0.006121205224770888
+0,categorical__merchant_category_Travel <= 0.00,-0.0053358891102252975
+0,categorical__merchant_category_Clothing > 0.00,-0.004234542048050855
+1,numerical__location_mismatch <= -0.30,-0.17929524751540393
+1,numerical__foreign_transaction <= -0.33,-0.17540432681202084
+1,numerical__device_trust_score <= -0.84,0.11260689257786474
+1,numerical__transaction_hour > 0.93,-0.03409006486910932
+1,numerical__cardholder_age <= -0.90,0.01147822046988719
+1,-0.01 < numerical__velocity_last_24h <= 0.69,-0.0106225640234565
+1,categorical__merchant_category_Grocery > 0.00,0.008173505634063096
+1,categorical__merchant_category_Food <= 0.00,-0.006426782884751526
+1,categorical__merchant_category_Travel <= 0.00,-0.00316419049609999
+1,numerical__amount <= -0.72,0.002721513518933212
+2,numerical__location_mismatch <= -0.30,-0.17453209325335542
+2,numerical__foreign_transaction <= -0.33,-0.17242159865904882
+2,numerical__transaction_hour <= -0.81,0.10330385234245841
+2,numerical__device_trust_score > 0.84,-0.04614719151915657
+2,numerical__velocity_last_24h <= -0.70,-0.026842425944172122
+2,categorical__merchant_category_Grocery <= 0.00,-0.010410901707232221
+2,categorical__merchant_category_Food <= 0.00,-0.010192252582921422
+2,categorical__merchant_category_Clothing <= 0.00,0.00796489132542687
+2,numerical__cardholder_age <= -0.90,0.004308120182415629
+2,numerical__amount <= -0.72,0.004027315306194442
+3,numerical__foreign_transaction <= -0.33,-0.18192196098569177
+3,numerical__location_mismatch <= -0.30,-0.16313641280134117
+3,numerical__device_trust_score <= -0.84,0.11597048373470434
+3,-0.81 < numerical__transaction_hour <= 0.06,-0.03812119301266381
+3,-0.01 < numerical__velocity_last_24h <= 0.69,-0.015589454610170124
+3,categorical__merchant_category_Clothing <= 0.00,0.007585376894551754
+3,categorical__merchant_category_Travel > 0.00,0.006709494928173778
+3,categorical__merchant_category_Electronics <= 0.00,-0.0061151299146497695
+3,categorical__merchant_category_Food <= 0.00,-0.003172190126380256
+3,-0.90 < numerical__cardholder_age <= 0.04,-0.0028635336547792626
+4,numerical__foreign_transaction <= -0.33,-0.1854654406941262
+4,numerical__location_mismatch <= -0.30,-0.15975212199426042
+4,numerical__device_trust_score <= -0.84,0.11042664441833908
+4,0.06 < numerical__transaction_hour <= 0.93,-0.036643443101331094
+4,numerical__velocity_last_24h <= -0.70,-0.02652783681589795
+4,categorical__merchant_category_Grocery <= 0.00,-0.01878986123472507
+4,-0.72 < numerical__amount <= -0.31,-0.015733368307260562
+4,categorical__merchant_category_Electronics <= 0.00,-0.012253303318386333
+4,numerical__cardholder_age <= -0.90,-0.008559019109276663
+4,categorical__merchant_category_Clothing > 0.00,-0.008218628735109933
