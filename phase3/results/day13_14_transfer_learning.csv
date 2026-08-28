@@ -1,0 +1,2 @@
+model,test_accuracy,precision,recall,f1_score,training_time_minutes,total_parameters,trainable_parameters
+ResNet18 Transfer Learning,0.9436,0.9452451919199215,0.9436,0.9435246696613172,33.234043236573534,11181642,11181642

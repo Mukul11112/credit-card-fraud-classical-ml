@@ -1,0 +1,4 @@
+data_percentage,training_samples,validation_accuracy,test_accuracy,training_time_minutes
+25.0,11250,0.9304,0.9095,11.414780231316884
+50.0,22500,0.9366,0.9378,18.570528181393943
+100.0,45000,0.9508,0.946,33.01595106919606
