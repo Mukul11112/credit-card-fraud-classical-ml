@@ -256,17 +256,29 @@ The following metrics are considered:
 - Training Time
 
 The exact experimental values are reported in the technical report.
+| Metric | Original ResNet18 | Pruned + Fine-Tuned ResNet18 |
 
-| Metric | Original ResNet18 | Pruned/Optimized Model |
-|---|---:|---:|
-| Accuracy | [ADD ACTUAL VALUE] | [ADD ACTUAL VALUE] |
-| F1 Score | [ADD ACTUAL VALUE] | [ADD ACTUAL VALUE] |
-| Parameters | [ADD ACTUAL VALUE] | [ADD ACTUAL VALUE] |
-| Model Size | [ADD ACTUAL VALUE] | [ADD ACTUAL VALUE] |
-| Inference Time | [ADD ACTUAL VALUE] | [ADD ACTUAL VALUE] |
-| Training Time | [ADD ACTUAL VALUE] | [ADD ACTUAL VALUE] |
+| Accuracy | 94.36% | 80.49% |
+| F1 Score | 94.35% | 80.48% |
+| Parameters | 11,181,642 | 11,181,642 |
+| Model Size | 42.69 MB | 42.69 MB |
+| Inference Time | 4.2690 s | 2.078 s |
+| Training/Fine-Tuning Time | 33.23 min | 1.96 min |
+| Sparsity | 0% | 20% |
 
----
+
+## Load Testing Results
+
+The deployed FastAPI service was tested using Locust with 10 concurrent users. A total of 787 requests were completed with zero failures, resulting in a 0% failure rate.
+
+The overall request rate was 6.5 requests per second with an average response time of 25.29 ms.
+
+The `/health` endpoint handled 402 requests with an average response time of 8.01 ms. The `/predict` endpoint handled 385 requests with an average response time of 43.34 ms. The prediction endpoint recorded a 95th percentile latency of 67 ms and a maximum latency of 141 ms.
+
+| Endpoint | Requests | Failures | Avg. Response |
+| `/health` | 402 | 0 | 8.01 ms |
+| `/predict` | 385 | 0 | 43.34 ms |
+| **Total** | **787** | **0** | **25.29 ms** |
 
 ## 13. Key Findings from the Research Paper
 
